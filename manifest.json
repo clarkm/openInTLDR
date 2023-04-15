@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Extension",
+  "name": "Open in TLDR",
   "version": "1.0.0",
-  "description": "My first Chrome extension",
+  "description": "Chrome extension to open a link in a chatGpt prompt with TLDR prepended",
   "permissions": [
     "contextMenus",
     "tabs",
