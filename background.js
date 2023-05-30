@@ -17,6 +17,6 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
       });
     });
     var encodedPromptMessage = encodeURIComponent(promptMessage);
-    chrome.tabs.create({url: "https://chat.openai.com/chat?prompt=" + encodedPromptMessage});
+    chrome.tabs.create({url: "https://chat.openai.com/?q=" + encodedPromptMessage});
   }
 });
